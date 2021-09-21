@@ -5,7 +5,7 @@ module.exports = {
   development: {
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-concave-38488',
     user : 'postgres',
     password : '5623',
     database : 'face-detection',
