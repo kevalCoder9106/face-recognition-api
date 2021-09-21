@@ -5,7 +5,7 @@ module.exports = {
   development: {
   client: 'pg',
   connection: {
-    connectionString : process.env.DATABASE_URL,
+    connectionString : "postgres://vyexavrnihyasz:1c31e58bff115e4679f4dbdf33f6c9c90cec126a14febb848289f75eff07aee0@ec2-52-23-87-65.compute-1.amazonaws.com:5432/d1s4uoreqf739s",
     ssl:true
   },
   migrations: {
